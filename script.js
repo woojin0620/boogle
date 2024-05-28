@@ -43,7 +43,7 @@ function getRandomInt(min, max) {
 }
 
 function moveStop(){
-  document.getElementsByTagName('input')[0].placeholder = '잡혀버렸네요ㅜㅜ'
+  document.getElementsByTagName('input')[0].placeholder = '훌륭하시군요. 검색을 허락합니다.'
   input.removeEventListener('mouseenter', moveButton);
   btn.style.animation = 'none';
 }
